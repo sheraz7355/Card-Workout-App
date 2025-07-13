@@ -102,6 +102,24 @@ struct CardDeck {
     }()
 }
 
+###  🧩 Buttons & Actions
+```swift
+stopButton.addTarget(self, action: #selector(stopTimer), for: .touchUpInside)
+restartButton.addTarget(self, action: #selector(resetTimer), for: .touchUpInside)
+rulesButton.addTarget(self, action: #selector(presentRulesVC), for: .touchUpInside)
+
+```
+### ⚙️ App Logic
+
+🔁 Timer-Based Card Shuffle
+Uses Timer.scheduledTimer with a 0.1s interval.
+Updates the UIImageView with a random image from CardDeck.allValues.
+startTimer(), stopTimer(), and resetTimer() handle timer control.
+🧾 Rules Presentation
+The RulesVC is presented modally using .present(...).
+Explains what each suit means (e.g., ♠ = Push-ups, ♥ = Sit-ups).
+
+
 
 
 
