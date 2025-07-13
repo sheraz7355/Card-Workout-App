@@ -78,8 +78,31 @@ class CWButton: UIButton {
         configuration?.cornerStyle = .medium
         translatesAutoresizingMaskIntoConstraints = false
     }
-
-    required init?(coder: NSCoder) {
+   required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
+---
+```
+### 🔹 SceneDelegate.swift
+```swift
+  window = UIWindow(windowScene: windowScene)
+window?.rootViewController = CardSelectionVC()
+window?.makeKeyAndVisible()
+
+```
+###  🔹 CardDeck.swift
+```swift
+struct CardDeck {
+    static let allValues: [UIImage] = {
+        var cards: [UIImage] = []
+        // load images named "2C", "3D", "AS", etc.
+        // must be added to Assets.xcassets
+        return cards
+    }()
+}
+
+
+
+
+ 
