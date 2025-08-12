@@ -7,6 +7,24 @@ A fast-paced workout app that displays a randomly shuffled deck of cards, with e
 
 ---
 
+## 📸 App Preview
+
+<table>
+  <tr>
+    <td><img src="assets/image.png" alt="Main Screen " width="200"/></td>
+    <td>   <img src="assets/image1.png" alt="Rules Screen " width="200"/></td>
+  </tr>
+  <tr>
+    <td align="center">Main Screen (Card Screen)</td>
+     <td align="center">Rules Screen  (Rules Screen)</td>
+  </tr>
+</table>
+
+<br/>
+
+
+---
+
 ## 📱 Overview
 
 The Card Workout App continuously cycles through a deck of 52 playing cards. Users can tap:
