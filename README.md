@@ -12,7 +12,7 @@ A fast-paced workout app that displays a randomly shuffled deck of cards, with e
 The Card Workout App continuously cycles through a deck of 52 playing cards. Users can tap:
 
 - 🛑 **Start** to halt the shuffle and reveal the exercise.
-- 🔄 **Stop** to resume.
+- 🔄 **Stop** to Stop Cards flipping.
 - 📜 **Rules** to show the exercise-to-card mapping.
 
 All UI is created programmatically, with layout done via Auto Layout in code.
